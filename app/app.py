@@ -1,6 +1,6 @@
 from flask import Flask
 from setproctitle import setproctitle
-from routes import crawl
+from src.routes import crawl
 
 app = Flask(__name__)
 setproctitle("flaskapi")
